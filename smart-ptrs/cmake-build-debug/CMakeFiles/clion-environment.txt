@@ -1,0 +1,4 @@
+ToolSet: 1.0 (local)Ninja: 1.13.2@/home/berezin-andrei/Загрузки/CLion-2026.2.2/clion-2026.2.2/bin/ninja/linux/x64/ninja
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=/home/berezin-andrei/Загрузки/CLion-2026.2.2/clion-2026.2.2/bin/ninja/linux/x64/ninja
