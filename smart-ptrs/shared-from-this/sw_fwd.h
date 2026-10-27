@@ -2,11 +2,14 @@
 
 #include <exception>
 
-// Instead of std::bad_weak_ptr
 class BadWeakPtr : public std::exception {};
 
-template <typename T>
+template <typename T, bool is_array = false>
 class SharedPtr;
 
-template <typename T>
+template <typename T, bool is_array = false>
 class WeakPtr;
+
+
+template <typename T>
+class EnableSharedFromThis;
